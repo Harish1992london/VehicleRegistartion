@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54165" started-at="2023-03-10T17:15:31 GMT" finished-at="2023-03-10T17:16:26 GMT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54165" started-at="2023-03-10T17:15:31 GMT" finished-at="2023-03-10T17:16:26 GMT">
+      <class name="insuranceCalculation_Motorcycle.EndToEndTests_motorcycle">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="setupMethod" is-config="true" duration-ms="5010" started-at="2023-03-10T17:15:32 GMT" finished-at="2023-03-10T17:15:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="insuranceCalculate(java.lang.Object)[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="insuranceCalculate" duration-ms="12901" started-at="2023-03-10T17:15:37 GMT" data-provider="vehData" finished-at="2023-03-10T17:15:50 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=888, Product_startdate=12/12/2025, PriceValidation_Gold=238.00, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum= 5.000.000,00, Vehicle_Date of Manufacture=09/04/2019, Insurant_Hobby=speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2,621.00, PriceValidation_Silver=701.00, Vehicle_Make=Honda, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=666, Insurant_ImageFilePath=??, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1,376.00, Insurant_FirstName=Prakash, Insurant_birthdate=12/12/1989, Insurant_gender=Male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="cleanUp" is-config="true" duration-ms="633" started-at="2023-03-10T17:15:50 GMT" finished-at="2023-03-10T17:15:50 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="setupMethod" is-config="true" duration-ms="3768" started-at="2023-03-10T17:15:50 GMT" finished-at="2023-03-10T17:15:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="insuranceCalculate(java.lang.Object)[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="insuranceCalculate" duration-ms="12828" started-at="2023-03-10T17:15:54 GMT" data-provider="vehData" finished-at="2023-03-10T17:16:07 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=888, Product_startdate=12/12/2025, PriceValidation_Gold=238.00, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum= 20.000.000,00, Vehicle_Date of Manufacture=09/04/2001, Insurant_Hobby=speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2,626.00, PriceValidation_Silver=702.00, Vehicle_Make=Volvo, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=900, Insurant_ImageFilePath=??, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1,379.00, Insurant_FirstName=Seema, Insurant_birthdate=12/12/1977, Insurant_gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="cleanUp" is-config="true" duration-ms="626" started-at="2023-03-10T17:16:07 GMT" finished-at="2023-03-10T17:16:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="setupMethod" is-config="true" duration-ms="5030" started-at="2023-03-10T17:16:07 GMT" finished-at="2023-03-10T17:16:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="insuranceCalculate(java.lang.Object)[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="insuranceCalculate" duration-ms="12612" started-at="2023-03-10T17:16:12 GMT" data-provider="vehData" finished-at="2023-03-10T17:16:25 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=1000, Product_startdate=12/12/2025, PriceValidation_Gold=87.00, TC No=3, Vehicle_Annual Mileage=100, Product_insurancesum= 3.000.000,00, Vehicle_Date of Manufacture=09/04/1989, Insurant_Hobby=speeding,Other, SelectOption=Ultimate, PriceValidation_Ultimate=967.00, PriceValidation_Silver=258.00, Vehicle_Make=Ford, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=100, Insurant_ImageFilePath=??, Vehicle_Model=Moped, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Ford Moped, Vehicle_CylinderCapacity=100, PriceValidation_Platinum=507.00, Insurant_FirstName=Savali, Insurant_birthdate=12/12/1956, Insurant_gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@59505b48]" name="cleanUp" is-config="true" duration-ms="630" started-at="2023-03-10T17:16:25 GMT" finished-at="2023-03-10T17:16:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- insuranceCalculation_Motorcycle.EndToEndTests_motorcycle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
